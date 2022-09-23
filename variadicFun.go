@@ -7,7 +7,7 @@ import "fmt"
 func addItem(item int, list ...int) {
 	//100,200,300,400 -> int[]{100,200,300,400}
 	//[]int{1, 2, 3, 4} -> {int[] {1,2,3,4}}
-	list = append(list, item)
+	list = append(list, item, 11, 22, 33, 44, 55, 66)
 	fmt.Println(list)
 }
 
